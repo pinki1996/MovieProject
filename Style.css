@@ -1,0 +1,51 @@
+body{
+    background: #000;
+}
+
+.search{
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+.headerNav{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    font-size: 20px !important;
+}
+
+.header{
+    font-size: 20px !important;
+}
+
+.moviefetchData{
+    display: flex !important;
+    overflow: auto;
+    gap:20px;
+    align-items: center;
+}
+
+#postarImg{
+    width: 20rem !important;
+    height: 100%;
+    object-fit: contain;
+}
+#tvImg{
+    width: 20rem !important; 
+    height: 100% !important;
+    object-fit: contain;
+}
+
+.heading{
+    /* margin-top: 100px; */
+    color: white;
+    padding: 10px;
+    /* font-size: 20px; */
+    text-align: center; 
+}
+@media (max-width: 768px) {
+    .navbar>.container {
+        display: block !important;
+
+    }
+  }
