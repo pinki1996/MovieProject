@@ -18,37 +18,20 @@ include 'Nav.php';
 </head>
 
 <body class=" mx-4">
-
     <div class="container ">
         <h3 class="heading">Movies</h3>
         <div class="row">
-            <!-- <div class="d-flex ali">
-                <form class="form-inline">
-                    <input class="form-control " type="search" placeholder="Search" onkeyup="showHint(this.value)" aria-label=" Search">
-                </form>
-            </div> -->
-
             <h4 class="my-5 text-light">Movie Shows</h4>
 
-            <div class="fetchData moviefetchData">
-            </div>
+            <div class="fetchData moviefetchData"></div>
             <h4 class="my-5 text-light">Top Rated</h4>
-            <div class="topRatedMovie moviefetchData">
-
-            </div>
+            <div class="topRatedMovie moviefetchData"></div>
             <h4 class="my-5 text-light">Popular</h4>
-            <div class="popularMovie moviefetchData">
-
-            </div>
-
-
-
+            <div class="popularMovie moviefetchData"></div>
 
         </div>
 
     </div>
-
-
 </body>
 <script type="text/javascript" src="API.js"></script>
 

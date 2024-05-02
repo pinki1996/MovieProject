@@ -21,27 +21,16 @@ include 'Nav.php';
     <div class="container ">
         <h3 class="heading">TV List</h2>
             <div class="row">
-
                 <h4 class="my-5 text-light">TV Shows</h4>
 
-                <div class="tVData moviefetchData">
-
-                </div>
+                <div class="tVData moviefetchData"></div>
                 <h4 class="my-5 text-light">Top Rated</h4>
-                <div class="topRatedTV moviefetchData">
-
-                </div>
+                <div class="topRatedTV moviefetchData"></div>
                 <h4 class="my-5 text-light">Popular</h4>
-                <div class="popularTV moviefetchData">
-
-                </div>
-
+                <div class="popularTV moviefetchData"></div>
 
             </div>
-
     </div>
-
-
 </body>
 <script src=" API.js">
 </script>

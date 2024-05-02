@@ -31,40 +31,13 @@
                     <li class="active "><a href="Movie.php">Movie</a></li>
                     <li class="active "><a href="TV.php">Tv Shows</a></li>
 
-                    <!-- <li>
-                    <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Category
-                    </a>
-                    <ul class="dropdown-menu category" aria-labelledby="navbarDropdown">
-                        <li>
-                            <a href="Movie.php">Movies Section</a>
-                        </li>
-
-
-                        <hr />
-                        <li>
-                            <a href="Tv.php">TV Section</a>
-                        </li>
-
-                    </ul>
-                </li> -->
-
                 </ul>
                 <form class="form-inline search">
                     <input class="form-control " type="search" placeholder="Search" onkeyup="showHint(this.value)" aria-label=" Search">
                 </form>
             </div>
         </div>
-        </li>
-
-
-
-
-        </div>
     </nav>
-
-
-
 </body>
 
 

@@ -47,7 +47,7 @@ function getdata() {
       $.each(result, function (key, value) {
         // console.log(value);
         $(".fetchData").append(
-          '<div id="movieData">' +
+          "<div >" +
             " <img id='postarImg' src=" +
             Image +
             value["poster_path"] +
@@ -67,7 +67,7 @@ function popular() {
       $.each(result, function (key, value) {
         // console.log(value);
         $(".popularMovie").append(
-          '<div id="movieData">' +
+          "<div >" +
             " <img id='postarImg' src=" +
             Image +
             value["poster_path"] +
@@ -87,7 +87,7 @@ function top_rated() {
       $.each(result, function (key, value) {
         // console.log(value);
         $(".topRatedMovie").append(
-          '<div id="movieData">' +
+          "<div >" +
             " <img id='postarImg' src=" +
             Image +
             value["poster_path"] +

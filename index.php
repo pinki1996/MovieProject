@@ -22,12 +22,6 @@ include 'Nav.php';
     <div class="container ">
         <h3 class="heading">Movie List</h3>
         <div class="row">
-            <div>
-                <!-- <form class="form-inline ">
-                    <input class="form-control " type="search" placeholder="Search" onkeyup="showHint(this.value)" aria-label=" Search">
-                </form> -->
-
-            </div>
             <h4 class="my-5 text-light">Movie Shows</h4>
             <div class="fetchData moviefetchData">
 
@@ -41,31 +35,20 @@ include 'Nav.php';
 
             </div>
         </div>
-
-
-
     </div>
 
-    </div>
+
     <div class="container ">
         <h3 class="heading">TV List</h2>
-            <div class="row scrollbar">
+            <div class="row ">
                 <h4 class="my-5 text-light">TV Shows</h4>
-                <div class="tVData moviefetchData">
-
-                </div>
+                <div class="tVData moviefetchData"></div>
                 <h4 class="my-5 text-light">Top Rated</h4>
-                <div class="topRatedTV moviefetchData">
-
-                </div>
+                <div class="topRatedTV moviefetchData"></div>
                 <h4 class="my-5 text-light">Popular</h4>
-                <div class="popularTV moviefetchData">
-
-                </div>
-
+                <div class="popularTV moviefetchData"></div>
 
             </div>
-
     </div>
 
 
